@@ -1,0 +1,13 @@
+.CardDeck button {
+  font-size: 2em;
+  margin-top: 1em;
+  padding: .25em;
+  border-radius: .2em;
+  border: 2px solid maroon;
+  background-color: white;
+}
+
+.CardDeck-pile {
+  margin-top: 80px;
+  position: relative;
+}

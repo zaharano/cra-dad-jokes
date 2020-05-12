@@ -1,0 +1,11 @@
+.JokeTruck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.JokeTruck h1 {
+  margin-top: 1.5em;
+}

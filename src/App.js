@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import BoxList from './ColorBox/BoxList'
+// import CardDeck from './CardDeck/CardDeck'
+import JokeList from './DadJokes/JokeList'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faTruckLoading, faSpinnerThird, faThumbsUp, faThumbsDown } from '@fortawesome/pro-regular-svg-icons'
+
+library.add(faTruckLoading, faThumbsDown, faThumbsUp, faSpinnerThird);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <JokeList />
     </div>
   );
 }
